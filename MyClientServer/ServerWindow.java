@@ -167,7 +167,7 @@ public class ServerWindow extends JFrame {
                 if (!clientGUI.getFieldLogin().equals(lstClients.get(i).getFieldLogin()))
                 lstClients.get(i).getLog().append(message + "\n");
             }
-            pathFile = pathFile = fullPathName(messageFileName);;
+            pathFile = fullPathName(messageFileName);;
             writeMessagetoFile(message, pathFile);
         } else {
             message = "Нет связи с сервером";
